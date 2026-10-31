@@ -25,8 +25,22 @@
 
 Desde la carpeta :  ProyectoDocuTrack:
 
+se crea el archivo *DocuTrack.csproj*
+Este archivo es el que identifica el proyecto para .NET y permite compilarlo y ejecutarlo
+```bash
+cat > DocuTrack.csproj <<'EOF'
+<Project Sdk="Microsoft.NET.Sdk">
 
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
 
+</Project>
+EOF
+```
 ```bash
 dotnet restore
 dotnet build
