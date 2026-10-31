@@ -1,8 +1,6 @@
 using System;
 using System.Collections.Generic;
 
-
-
 namespace DocuTrack.Models 
 {
     public class ArbolBinario // Clase que representa un árbol binario de búsqueda
