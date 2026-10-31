@@ -23,14 +23,10 @@ namespace DocuTrack.Controllers
             Fase5_RecorridosYMetricas();
         }
 
+// Fase 1: Construcción Inicial del Árbol
         private void Fase1_Construccion()
         {
             _vista.MostrarEncabezado("Fase 1: Construcción Inicial del Árbol (mínimo 14 elementos)");
-
-            // Selección de claves para estructurar intencionalmente:
-            // - Raíz con 2 subárboles.
-            // - Nodos hoja en ambos lados.
-            // - Nodos con un solo hijo (para casos de eliminación 2).
             var elementos = new (string Nombre, bool EsCarpeta)[]
             {
                 ("Mundo", true),         // Raíz
@@ -66,7 +62,9 @@ namespace DocuTrack.Controllers
 
             _vista.MostrarArbolASCII(_arbol.Raiz);
         }
+ 
 
+ // Fase 2: Búsquedas Rápidas
         private void Fase2_BusquedasRapidas()
         {
             _vista.MostrarEncabezado("Fase 2: Búsquedas Rápidas (2 Izq, 2 Der, 2 Inexistentes)");
@@ -88,21 +86,23 @@ namespace DocuTrack.Controllers
             }
         }
 
+        // Fase 3: Actualizaciones Selectivas Eliminar + Insertar
         private void Fase3_ActualizacionesSelectivas()
         {
             _vista.MostrarEncabezado("Fase 3: Actualizaciones Selectivas (Eliminar + Insertar)");
 
-            // 1. Actualizar Hoja
+            //  Actualizar Hoja
             EjecutarActualizacion("Kratos.png", "Kratos_V2.png", false, "Actualización en Hoja");
 
-            // 2. Actualizar Hijo con un hijo
+            // Actualizar Hijo con un hijo
             EjecutarActualizacion("Manual.docx", "Guia_Usuario.docx", false, "Actualización en Hijo con un hijo");
 
-            // 3. Actualizar Raíz
+            // Actualizar Raíz
             EjecutarActualizacion("Mundo", "RaizPrincipal", true, "Actualización en Raíz");
         }
 
-        private void EjecutarActualizacion(string antiguo, string nuevo, bool esCarpeta, string caso)
+    //ejecutar la actualizacion de un nodo en el arbol binario de busqueda
+            private void EjecutarActualizacion(string antiguo, string nuevo, bool esCarpeta, string caso)
         {
             _vista.MostrarMensaje($"--- Realizando: {caso} ('{antiguo}' -> '{nuevo}') ---");
             bool exito = _arbol.Actualizar(antiguo, nuevo, esCarpeta, out string log);
@@ -114,6 +114,7 @@ namespace DocuTrack.Controllers
             _vista.MostrarArbolASCII(_arbol.Raiz);
         }
 
+    // Fase 4: Eliminaciones Selectivas
         private void Fase4_EliminacionesSelectivas()
         {
             _vista.MostrarEncabezado("Fase 4: Eliminaciones Selectivas");

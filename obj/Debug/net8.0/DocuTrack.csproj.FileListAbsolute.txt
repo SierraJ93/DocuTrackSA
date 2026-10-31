@@ -1,0 +1,15 @@
+/Users/foxsier/Desktop/Umanizales/4 semestre/porgramacion III/ProyectoDocuTrack/bin/Debug/net8.0/DocuTrack
+/Users/foxsier/Desktop/Umanizales/4 semestre/porgramacion III/ProyectoDocuTrack/bin/Debug/net8.0/DocuTrack.deps.json
+/Users/foxsier/Desktop/Umanizales/4 semestre/porgramacion III/ProyectoDocuTrack/bin/Debug/net8.0/DocuTrack.runtimeconfig.json
+/Users/foxsier/Desktop/Umanizales/4 semestre/porgramacion III/ProyectoDocuTrack/bin/Debug/net8.0/DocuTrack.dll
+/Users/foxsier/Desktop/Umanizales/4 semestre/porgramacion III/ProyectoDocuTrack/bin/Debug/net8.0/DocuTrack.pdb
+/Users/foxsier/Desktop/Umanizales/4 semestre/porgramacion III/ProyectoDocuTrack/obj/Debug/net8.0/DocuTrack.GeneratedMSBuildEditorConfig.editorconfig
+/Users/foxsier/Desktop/Umanizales/4 semestre/porgramacion III/ProyectoDocuTrack/obj/Debug/net8.0/DocuTrack.AssemblyInfoInputs.cache
+/Users/foxsier/Desktop/Umanizales/4 semestre/porgramacion III/ProyectoDocuTrack/obj/Debug/net8.0/DocuTrack.AssemblyInfo.cs
+/Users/foxsier/Desktop/Umanizales/4 semestre/porgramacion III/ProyectoDocuTrack/obj/Debug/net8.0/DocuTrack.csproj.CoreCompileInputs.cache
+/Users/foxsier/Desktop/Umanizales/4 semestre/porgramacion III/ProyectoDocuTrack/obj/Debug/net8.0/DocuTrack.dll
+/Users/foxsier/Desktop/Umanizales/4 semestre/porgramacion III/ProyectoDocuTrack/obj/Debug/net8.0/refint/DocuTrack.dll
+/Users/foxsier/Desktop/Umanizales/4 semestre/porgramacion III/ProyectoDocuTrack/obj/Debug/net8.0/DocuTrack.pdb
+/Users/foxsier/Desktop/Umanizales/4 semestre/porgramacion III/ProyectoDocuTrack/obj/Debug/net8.0/DocuTrack.genruntimeconfig.cache
+/Users/foxsier/Desktop/Umanizales/4 semestre/porgramacion III/ProyectoDocuTrack/obj/Debug/net8.0/ref/DocuTrack.dll
+/Users/foxsier/Desktop/Umanizales/4 semestre/porgramacion III/ProyectoDocuTrack/obj/Debug/net8.0/DocuTrack.sourcelink.json

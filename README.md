@@ -1,5 +1,5 @@
 ## Integrantes y Responsabilidades
-- *Jhonathan Martínez Gómez*: Arquitectura MVC, implementación de ArbolBinario.cs, lógica CRUD (Eliminación con Sucesores) 
+- *Jhonathan Martínez Gómez*: Arquitectura MVC, implementación de ArbolBinario.cs, lógica CRUD
    e  impresión ASCII.
 - *Johnatan Andres Sierra Alvarez*: Implementación de DocumentoController.cs, 
     diseño de casos de prueba y búsquedas.
@@ -25,13 +25,16 @@
 
 Desde la carpeta :  ProyectoDocuTrack:
 
+
+
 ```bash
 dotnet restore
 dotnet build
 dotnet run
 ```
-Compilar el proyecto:Bash dotnet build
-Ejecutar el proyecto:Bash dotnet run
+
+
+
 
 ## Justificación del Recorrido Ordenado 
 El recorrido Inorden (Izquierda - Raíz - Derecha) es el único que confirma visual y formalmente que las propiedades del Binary Search Tree (BST) se mantienen. 
